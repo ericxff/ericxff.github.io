@@ -1,5 +1,7 @@
 $(document).ready(function() {
-
+    $(document).on('click',function(){
+      $('.navbar-collapse').collapse('hide');
+    });
 	//parallax js
         var jumboHeight = $('.jumbotron').outerHeight();
         function parallax(){

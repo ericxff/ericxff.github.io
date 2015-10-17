@@ -53,21 +53,26 @@ a:hover {
 	text-decoration: none;
 }
 
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
 
 #mce-EMAIL {
 	border: none;
-	border-radius: 4px;
-	padding: 0.475em;
+	border-radius: 25px;
+	padding: 0.75em 1.5em;
 }
 
 .btn-default, .btn-default:visited {
 	background: none;
 	border: 1px solid #fff;
 	color: #fff;
-
+	border-radius: 25px;
+	padding: 0.75em 1.5em;
 }
 
-#upcoming .btn-default:hover,
+/*#upcoming .btn-default:hover,
 #upcoming #mc-embedded-subscribe:hover {
 	background-color: #50eed2;
 	border-color: #50eed2;
@@ -81,6 +86,12 @@ a:hover {
 #footer #mc-embedded-subscribe:hover {
     background-color: #3e6587;
     border-color: #3e6587;
+}*/
+
+.btn-default:hover,
+#mc-embedded-subscribe:hover {
+	color: #000;
+	background-color: #fff;
 }
 
 .thumbnail {
@@ -145,13 +156,16 @@ carousel css
 		top: 0;
 	}
 	.carousel-caption h1 {
-		font-size: 1.5em;
+		font-size: 1.3em;
 		line-height: 1.3em;
 	}
 
 	.carousel-caption h4 {
 		font-size: 1.2em;
 		line-height: 1em;
+	}
+	#firstslide h1 {
+		font-size: 2em;
 	}
 }
 
@@ -373,9 +387,14 @@ upcoming events css
 #upcoming #mc-embedded-subscribe {
 	background: none;
 	border: 1px solid #fff;
-	border-radius: 4px;
-	padding: 0.45em;
+	border-radius: 25px;
+	padding: 0.7em 1.5em;
 	color: #fff;
+}
+
+#upcoming #mc-embedded-subscribe:hover {
+	color: #000;
+	background-color: #fff;
 }
 
 .visible-xs #mailchimp #mc-embedded-subscribe,
@@ -406,6 +425,7 @@ upcoming events css
 
 #subscribe {
 	font-size: 1.75em;
+	font-family: "proxima_nova_rgbold"
 	color: #fff;
 	transform: translateY(5px);
 	margin-right: 1%;
@@ -449,6 +469,9 @@ blog css
 	text-align: center;
 }
 
+#blog .caption h3:hover {
+	color: #F48FB1;
+}
 /*---------------------------------------------
 sponsor css
 -------------------------------------------*/
@@ -492,10 +515,15 @@ footer css
 #footer #mc-embedded-subscribe {
 	background: none;
 	border: 1px solid #fff;
-	border-radius: 4px;
-	padding: 0.475em;
+	border-radius: 25px;
+	padding: 0.75em 1.5em;
 	color: #fff;
 	margin-top: 0.6em;
+}
+
+#footer #mc-embedded-subscribe:hover {
+	color: #000;
+	background-color: #fff;
 }
 
 #footer .container {
@@ -503,7 +531,7 @@ footer css
 }
 
 #footer #mce-EMAIL {
-	padding: 0.55em;
+	padding: 0.75 1.5em;
 }
 
 #subscribeFooter {
@@ -534,6 +562,10 @@ footer css
 	padding: 4%;
 	background-color: #2c3e50;
 	margin: 0 auto;
+}
+
+#footer ul li a:visited {
+	text-decoration: none;
 }
 
 #footer h4 {
