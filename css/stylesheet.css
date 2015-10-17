@@ -1,0 +1,551 @@
+/* ------------------------------------
+general 
+----------------------------------*/
+html,body {
+	height: 100%;
+}
+
+ol {
+    list-style-type: decimal;
+    line-height: 3em;
+    color: #fff;
+}
+
+.container {
+	width: 80%;
+}
+
+.caption .btnContainer {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'proxima_nova_rgbold', Arial, sans-serif;
+}
+
+p, input, a, li {
+	font-family: 'proxima_nova_rgregular', Arial, sans-serif;
+}
+
+h2, h3, h4 {
+	font-family: 'proxima_nova_rgbold', Arial, sans-serif;
+}
+
+h2 {
+	font-size: 270%;
+}
+
+h1,h2,h3,h4,h5,h6,blockquote,span {
+    color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #26A69A;
+}
+
+li {
+	color: #fff;
+}
+
+a:hover {
+	color: #B2DFDB;
+	text-decoration: none;
+}
+
+
+#mce-EMAIL {
+	border: none;
+	border-radius: 4px;
+	padding: 0.475em;
+}
+
+.btn-default, .btn-default:visited {
+	background: none;
+	border: 1px solid #fff;
+	color: #fff;
+
+}
+
+#upcoming .btn-default:hover,
+#upcoming #mc-embedded-subscribe:hover {
+	background-color: #50eed2;
+	border-color: #50eed2;
+}
+
+#blog .btn-default:hover {
+	background-color: #fca377;
+	border-color: #fca377;
+}
+
+#footer #mc-embedded-subscribe:hover {
+    background-color: #3e6587;
+    border-color: #3e6587;
+}
+
+.thumbnail {
+	background: none;
+	border: none;
+}
+
+.thumbnail h3, p {
+	color: #fff;
+	line-height: 1.7em;
+}
+
+.thumbnail .btn {
+	margin-top: 1em;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+/*---------------------------------------
+carousel css
+---------------------------------------*/
+#mycarousel {
+	margin-top: 74px;
+	max-height: 500px;
+	width: 100%;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+
+#mycarousel .carousel-inner .item img {
+
+}
+
+.carousel-caption {
+	top: 0;
+	bottom: 0;
+	display: inline-block;
+}
+
+.carousel-caption h4 {
+	font-size: 2em;
+	line-height: 2em;
+}
+
+@media screen and (min-width: 768px) {
+	.carousel-caption {
+		top: 10%;
+	}
+	.carousel-caption h1 {
+		font-size: 3.5em;
+		line-height: 1.3em;
+	}
+	.cta {
+		margin-top: 1.1%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.carousel-caption {
+		top: 0;
+	}
+	.carousel-caption h1 {
+		font-size: 1.5em;
+		line-height: 1.3em;
+	}
+
+	.carousel-caption h4 {
+		font-size: 1.2em;
+		line-height: 1em;
+	}
+}
+
+
+.carousel-caption p {
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+
+#mycarousel a {
+	color: #fff;
+}
+
+.cta {
+	display: inline-block;
+	padding: 1.4% 3.25%;
+	border: 1.5px solid #fff;
+	border-radius: 30px;
+	font-family: "proxima_nova_rgbold";
+	font-size: 0.5em;
+	text-shadow: none;
+}
+
+.cta:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+
+.carousel-indicators {
+	bottom: 0;
+	margin-bottom: 0;
+}
+
+/*--------------------------------------
+jumbotron css
+---------------------------------------*/
+.bg {
+  background: url('../images/jumbotron(compressed).jpg') no-repeat center center;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 550px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+
+
+.jumbotron {
+	height: 550px;
+	width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    background:transparent;   
+}
+
+.jumbotronxs {
+    background: url('../images/jumbotron(compressed).jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.jumbotron h1 {
+	color: white;
+	font-family: 'proxima_nova_rgbold', Arial, sans-serif;
+	line-height: 0.9em;
+	font-size: 4em;
+}
+
+.jumbotron .heading {
+    margin-top: 8em;
+}
+
+.jumbotron .oneliner {
+	margin-top: 2.5%;
+	font-size: 1.75em;
+}
+
+.jumbotronxs .heading {
+    margin-top: 9em;
+}
+.jumbotronxs h1 {
+    font-size: 4em;
+    line-height: 1.3em;
+}
+
+.jumbotronxs .oneliner {
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+/*----------------------------------------
+about
+-----------------------------------------*/
+#about {
+	text-align: center;
+	background: #6699d1;
+	margin: 0 auto;
+	margin-top: -1px;
+}
+
+@media screen and (min-width: 768px) {
+	#about .container-fluid {
+		width: 80%;
+	}
+}
+#about .container-fluid {
+	margin-top: 4em;
+	margin-bottom: 3em;
+}
+
+#about .pillar {
+	margin-bottom: 3%;
+}
+
+#about i {
+	font-size: 4em;
+	color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+	#about i {
+		font-size: 5em;
+	}
+
+	#about .title {
+		font-size: 2em;
+	}
+}
+
+#about .title {
+	line-height: 1.5em;
+	margin-top: 1em;
+	color: #fff;
+}
+
+#about p {
+	margin-top: 1em;
+	width: 14em;
+	line-height: 1.5em;
+	display: inline-block;
+}
+
+#about .caption {
+	text-align: center;
+	font-size: 17px;
+}
+
+
+
+/*---------------------------------------
+navbar css
+-----------------------------------------*/
+.navbar-toggle:active {
+    background-color: #fff;
+}
+
+#logo {
+	max-height: 45px;
+
+}
+
+.navbar-brand {
+	padding: 0px;
+    padding-top: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-default .container {
+        width: 100%;
+    }
+}
+
+.navbar-default .navbar-nav li {
+    height: 100%
+}
+
+
+.navbar-default .navbar-nav li a {
+	color: #7f8c8d;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #16a085;
+}
+
+.navbar-default {
+	font-size: 0.9em;
+	border: none;
+    padding: 12px 25px;
+}
+
+div#navbar.navbar-collapse.collapse.in,
+div#navbar.navbar-collapse.collapsing
+ {
+    border: none;
+}
+
+
+div#navbar.navbar-collapse.collapse.in ul,
+div#navbar.navbar-collapse.collapsing ul {
+    margin-top: 1em;
+}
+
+
+/*-------------------------------------------
+upcoming events css
+----------------------------------------------*/
+#upcoming .heading {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 2em;
+}
+
+#upcoming #mc-embedded-subscribe {
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	padding: 0.45em;
+	color: #fff;
+}
+
+.visible-xs #mailchimp #mc-embedded-subscribe,
+.visible-xs #mailchimp #mce-EMAIL {
+    margin-top: 1em;
+}
+
+#upcoming .thumbnail h3 {
+	text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+	#upcoming .container {
+		width: 95%;
+	}
+	#upcoming .thumbnail img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+#mailchimp {
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 3.5%;
+	margin-top: -1%;
+}
+
+#subscribe {
+	font-size: 1.75em;
+	color: #fff;
+	transform: translateY(5px);
+	margin-right: 1%;
+	margin-bottom: 3%;
+}
+
+#upcoming {
+	background-color: #80ba7d;
+	margin-top: 0;
+	margin: 0 auto;
+	/* display: inline-block; */
+}
+
+#upcoming .contentContainer {
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+
+/*--------------------------------------------
+blog css
+----------------------------------------------*/
+
+#blog {
+	background-color: #eb597d;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	margin: 0 auto;
+}
+
+#blog .heading {
+	text-align: center;
+	padding-bottom: 4%;
+	color: #fff;
+}
+
+#blog .thumbnail {
+	border: none;
+	margin-top: -7.5%;
+	margin-bottom: -5%;
+	text-align: center;
+}
+
+/*---------------------------------------------
+sponsor css
+-------------------------------------------*/
+#sponsor {
+	text-align: center;
+	padding-bottom: 1.8em;
+	padding-top: 1em;
+	background-color: #41c3ac;
+	color: #fff;
+	margin: 0 auto;
+}
+
+/*#sponsor:hover {
+    background-color: #47dbc1;
+}*/
+
+#sponsor .glyphicon {
+	transform: translateY(4px);
+	padding-left: 0.3%;
+	color: #fff;
+}
+
+/*#sponsor .glyphicon:hover {
+	color: #FFAB91;
+}*/
+
+#sponsor a {
+	font-family: 'proxima_nova_rgbold', Arial, sans-serif;
+	color: #fff;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+#sponsorUs {
+    text-decoration: none;
+}
+
+/*----------------------------------------------
+footer css
+-----------------------------------------------*/
+#footer #mc-embedded-subscribe {
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	padding: 0.475em;
+	color: #fff;
+	margin-top: 0.6em;
+}
+
+#footer .container {
+    padding: 0;
+}
+
+#footer #mce-EMAIL {
+	padding: 0.55em;
+}
+
+#subscribeFooter {
+	width: 250px;
+}
+
+
+#mailchimpFooter p {
+	color: #26A69A;
+}
+
+@media screen and (min-width: 992px) {
+    #mailchimpFooter {
+        margin-left: -20px;
+    }
+}
+
+#footer ul li {
+	list-style-type: none;
+}
+
+#footer ul {
+	line-height: 2.3;
+	padding: 0;
+}
+
+#footer {
+	padding: 4%;
+	background-color: #2c3e50;
+	margin: 0 auto;
+}
+
+#footer h4 {
+	color: white;
+}
+
+#footer .footer-list {
+    margin-bottom: 4.5%;
+}
+
+@media screen and (max-width: 400px) {
+    #footer {
+        padding-left: 0;
+    }
+}
