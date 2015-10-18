@@ -4,7 +4,7 @@ body {
 }
 
 .page-wrapper {
-	background: #6699d1;
+	background: #41c3ac;
 }
 
 .intro-container {
@@ -40,7 +40,7 @@ img {
 
 /*------------------------------------------------------*/
 .pastSponsor {
-	background: #80ba7d;
+	background: #ff9966;
 	text-align: center;
 	padding-bottom: 2.5%;
 }
