@@ -20,15 +20,15 @@ ol {
 }
 
 h1 {
-	font-family: 'proxima_nova_rgbold', Arial, sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 
 p, input, a, li {
-	font-family: 'proxima_nova_rgregular', Arial, sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 
 h2, h3, h4 {
-	font-family: 'proxima_nova_rgbold', Arial, sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 
 h2 {
@@ -49,30 +49,29 @@ li {
 }
 
 a:hover {
-	color: #B2DFDB;
+	color: #1dd2af;
 	text-decoration: none;
 }
 
-.navbar-default .navbar-toggle {
-	border-color: transparent;
+.text-muted {
+	color: #ecf0f1;
+	font-weight: lighter;
 }
-
 
 #mce-EMAIL {
 	border: none;
-	border-radius: 25px;
-	padding: 0.75em 1.5em;
+	border-radius: 4px;
+	padding: 0.475em;
 }
 
 .btn-default, .btn-default:visited {
 	background: none;
 	border: 1px solid #fff;
 	color: #fff;
-	border-radius: 25px;
-	padding: 0.75em 1.5em;
+
 }
 
-/*#upcoming .btn-default:hover,
+#upcoming .btn-default:hover,
 #upcoming #mc-embedded-subscribe:hover {
 	background-color: #50eed2;
 	border-color: #50eed2;
@@ -86,12 +85,6 @@ a:hover {
 #footer #mc-embedded-subscribe:hover {
     background-color: #3e6587;
     border-color: #3e6587;
-}*/
-
-.btn-default:hover,
-#mc-embedded-subscribe:hover {
-	color: #000;
-	background-color: #fff;
 }
 
 .thumbnail {
@@ -156,16 +149,13 @@ carousel css
 		top: 0;
 	}
 	.carousel-caption h1 {
-		font-size: 1.3em;
+		font-size: 1.5em;
 		line-height: 1.3em;
 	}
 
 	.carousel-caption h4 {
 		font-size: 1.2em;
 		line-height: 1em;
-	}
-	#firstslide h1 {
-		font-size: 2em;
 	}
 }
 
@@ -185,7 +175,7 @@ carousel css
 	padding: 1.4% 3.25%;
 	border: 1.5px solid #fff;
 	border-radius: 30px;
-	font-family: "proxima_nova_rgbold";
+	font-family: "Open Sans";
 	font-size: 0.5em;
 	text-shadow: none;
 }
@@ -232,7 +222,7 @@ jumbotron css
 
 .jumbotron h1 {
 	color: white;
-	font-family: 'proxima_nova_rgbold', Arial, sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 	line-height: 0.9em;
 	font-size: 4em;
 }
@@ -263,8 +253,8 @@ about
 -----------------------------------------*/
 #about {
 	text-align: center;
-	background: #6699d1;
-	margin: 0 auto;
+	background: #1dd2af;
+	width: 100%;
 	margin-top: -1px;
 }
 
@@ -346,10 +336,8 @@ navbar css
 
 
 .navbar-default .navbar-nav li a {
-	color: #7f8c8d;
+	color: #ecf0f1;
     font-size: 14px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
 }
 
 .navbar-default .navbar-nav li a:hover {
@@ -387,14 +375,9 @@ upcoming events css
 #upcoming #mc-embedded-subscribe {
 	background: none;
 	border: 1px solid #fff;
-	border-radius: 25px;
-	padding: 0.7em 1.5em;
+	border-radius: 4px;
+	padding: 0.45em;
 	color: #fff;
-}
-
-#upcoming #mc-embedded-subscribe:hover {
-	color: #000;
-	background-color: #fff;
 }
 
 .visible-xs #mailchimp #mc-embedded-subscribe,
@@ -425,7 +408,6 @@ upcoming events css
 
 #subscribe {
 	font-size: 1.75em;
-	font-family: "proxima_nova_rgbold"
 	color: #fff;
 	transform: translateY(5px);
 	margin-right: 1%;
@@ -469,9 +451,6 @@ blog css
 	text-align: center;
 }
 
-#blog .caption h3:hover {
-	color: #F48FB1;
-}
 /*---------------------------------------------
 sponsor css
 -------------------------------------------*/
@@ -499,7 +478,7 @@ sponsor css
 }*/
 
 #sponsor a {
-	font-family: 'proxima_nova_rgbold', Arial, sans-serif;
+	font-family: 'Open Sans';
 	color: #fff;
 	font-size: 1em;
 	text-decoration: none;
@@ -515,15 +494,10 @@ footer css
 #footer #mc-embedded-subscribe {
 	background: none;
 	border: 1px solid #fff;
-	border-radius: 25px;
-	padding: 0.75em 1.5em;
+	border-radius: 4px;
+	padding: 0.475em;
 	color: #fff;
 	margin-top: 0.6em;
-}
-
-#footer #mc-embedded-subscribe:hover {
-	color: #000;
-	background-color: #fff;
 }
 
 #footer .container {
@@ -531,7 +505,7 @@ footer css
 }
 
 #footer #mce-EMAIL {
-	padding: 0.75 1.5em;
+	padding: 0.55em;
 }
 
 #subscribeFooter {
@@ -564,10 +538,6 @@ footer css
 	margin: 0 auto;
 }
 
-#footer ul li a:visited {
-	text-decoration: none;
-}
-
 #footer h4 {
 	color: white;
 }
@@ -580,4 +550,12 @@ footer css
     #footer {
         padding-left: 0;
     }
+}
+
+
+/*----------------------------
+flagship
+-----------------------------*/
+#flagship {
+	background: #2c3e50;
 }
